@@ -1,0 +1,43 @@
+Output-When the computer shares information with the person using it.
+Escape-When we take a character that has a special meaning in Python and make it normal, often by using a backslash (\) right before it.
+Variable-A container for information. This is how we tell Python to remember data. Variables can change.
+Constant-A container for information than cannot be changed. Python doesn't have true constants. However, the tuple data type, which is like a record, cannot be modified after it is set.
+Value-The information, or data, that a variable holds. When we tell Python to remember something, the value is what it remembers.
+String-A kind of information made of letters, words, or characters.
+Input-When we give the computer information.
+Hardcoded-We cannot change something hardcoded without changing the code and running the program again.
+Calculate-When the computer does math.
+Integer-A kind of data made of whole numbers only. In Python, this is called an int.
+Float-A kind of data made of numbers with decimal points.
+Evaluate-When a computer understands code and does what it says.
+Modulo-This symbol (%) tells Python to divide two numbers and give you the remainder, like so: 10 % 5 = 0, because 5 goes into 10 twice and nothing is left over.
+Integer Division-This symbol (//) tells Python to divide two numbers and give you an integer back. It always rounds down.
+Exponentiation-This symbol (**) tells Python to raise the first number to the power of the second, like so: 3 ** 2 = 9
+Control Flow-Deciding when and if to run different parts of the code.
+Assign-When we tell Python to remember something in a variable.
+Logical Operators-Words (and, or, not) that help Python understand our conditions. Do we need both parts to be true? Just one? Or do we want to make sure something is NOT true?
+Relational Operators-Symbols (<, >, ==, <=, >=) that tell Python whether we want something to be smaller than, bigger than or the same as another value.
+Readability-How easy code is for people to understand.
+IndentationError-A kind of syntax error. This means Python doesn't understand which block your code belongs to. See Error.
+Whitespace-Room between parts of code that make the code easier to read.
+Iteration-Repetition, looping.
+Function-A piece of code that has a job. Functions can take parameters and can return values. See Parameters, Return.
+List-A group of variables. Similar to an array.
+Index-A number that tells Python which part of a list you want to access.
+2D Array-An array that holds other arrays. Similar to a list of lists.
+Call-When we tell Python we want to use a function.
+Parameters-Information we give a function to work with.
+Return-Information a function gives us when it's done working.
+Local-Variable A variable that only works inside the if statement, loop, or function where it was created.
+Global Variable-A variable that works anywhere in the same file.
+Validation-When we make sure input won't cause problems before we actually use it in our code.
+Boolean-A kind of data than can only be True or False.
+Normal-Data that we want our program to accept.
+Boundary-Data that is on the edge of what our program should not accept. For example, if our program asks for a number between one and ten, ten would be boundary data.
+Erroneous-Data that we want our program to reject.
+Data Type-The kind of information we are dealing with. Data can be integer, float (which is a kind of real number), string, char, or boolean.
+Char-A type of information that is only one letter or number long.
+Error-A problem that happens when we try to run our code. When Python finds an error in our code, it will tell us which line we need to check to find it and what kind of problem it is.There are three types of errors: Logic, Syntax, and Runtime.
+Logic Error-When our code does something we don't want it to do, even though it technically works.
+Syntax-Error-When the computer can't even understand our code because we wrote it the wrong way. In this case, the code does not run.
+Runtime Error-When the computer understands our code, but finds a problem while using it.
