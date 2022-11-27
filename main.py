@@ -51,4 +51,6 @@ Label(window, text="Enter the word you would like to definition for:", bg="black
 output = Text(window, width=75, height=6, wrap=WORD, bg="white", fg="black", font=('arial', 16, 'bold'))
 output.grid(row=5, column=0, columnspan=2, sticky=W)
 
-mainloop()
+if __name__ == "__main__":
+    mainloop()
+
