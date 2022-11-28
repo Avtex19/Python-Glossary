@@ -36,9 +36,9 @@ Label(window, image=photoImage, bg="black").grid(row=0, column=0, sticky=W)
 textEntry = Entry(window, width=30, bg="white", fg="black", font=('arial', 16, 'bold'))
 textEntry.grid(row=3, column=0, sticky=W)
 
-Button(window, text="SUBMIT", width=14, command=click, font=('arial', 20, 'bold'), bg="DodgerBlue2", fg="black").grid(
+Button(window, text="SUBMIT", width=14, command=click, font=('arial', 20, 'bold'), bg="white", fg="black").grid(
     row=4, column=0, sticky=W)
-Button(window, text="Exit", width=14, command=close_window, font=('arial', 20, 'bold'), bg="DodgerBlue2",
+Button(window, text="Exit", width=14, command=close_window, font=('arial', 20, 'bold'), bg="white",
        fg="black").grid(row=7, column=0, sticky=W)
 
 Label(window, text="Welcome to the Python glossary, Enter the word and get its fully meaning definition.", bg="black",
