@@ -15,7 +15,7 @@ def click():
     text_input = textEntry.get()  # collects text from text entry
     output.delete(0.0, END)
     if text_input in d.keys():
-        output.insert(END, str((d[text_input])))
+        output.insert(END, str(' '.join((d[text_input]))))
     else:
         output.insert(END, "Sorry, can not find such a word, please try another one")
 
